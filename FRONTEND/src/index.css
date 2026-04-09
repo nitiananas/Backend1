@@ -1,0 +1,86 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body,
+#root{
+    height: 100%;
+    width: 100%;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.create-post-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+.create-post-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.create-post-section form input,
+.create-post-section form textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.create-post-section form button{
+    padding: 10px 20px;
+    background-color: #1c8927;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.create-post-section form button:hover{
+    background-color: #166b1f;
+}
+.feed-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #db4c4c;
+    justify-content: center;
+    padding: 20px;
+}
+.post-card{
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.post-card p{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    background-color: rgb(143, 218, 239);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.post-card img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
